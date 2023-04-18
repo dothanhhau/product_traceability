@@ -19,3 +19,10 @@ html {
     box-sizing: border-box;
 }
 
+.header__nav,
+.header__logo,
+.header__login,
+.content__slide_text {
+    user-select: none;
+    -webkit-user-select: none;
+}

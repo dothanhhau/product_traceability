@@ -54,8 +54,11 @@ img {
 .header__about-location-info {
     display: inherit;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: center
+}
+.header__about a {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .header__about>p {
@@ -101,6 +104,7 @@ img {
     color: #fff;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .header__nav-item-list {
@@ -263,4 +267,51 @@ img {
 
 .header__nav--btn:hover {
     opacity: 0.8;
+}
+
+/* CONTENT */
+/* SLIDE LIST */
+.content__slide-list {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url(/assets/img/Banner-1.jpg);
+}
+.content__slide_text {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    font-size: 2.5rem;
+    color: var(--white-color);
+    line-height: 2.5rem;
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.content__slide_text p + p {
+    font-size: 3.9rem;
+    line-height: 5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 15px 15px 0 0;
+}
+.content__slide_text a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    width: 360px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    border-radius: 40px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.content__slide_text a:hover {
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+.content__slide_text > a > i {
+    font-size: 2rem;
 }
