@@ -274,7 +274,7 @@ img {
     position: relative;
     width: 100%;
     height: 600px;
-    background-image: url(/assets/img/Banner-1.jpg);
+    background: url('/assets/img/Banner-1.jpg') top center / cover no-repeat;
 }
 .content__slide_text {
     position: absolute;
@@ -314,6 +314,42 @@ img {
 .content__slide_text > a > i {
     font-size: 2rem;
 }
+/* Why choice Twogodfather */
+.whyChoice {
+    background-color: #f9f8ee;
+    color: #333;
+    font-size: 1.4rem;
+    opacity: .8;
+    word-spacing: 2px;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+.whyChoice-main-text {
+    width: 740px;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.whyChoice-sub-list {
+    display: flex;
+    justify-content: space-around;
+
+}
+.whyChoice-sub-item {
+    flex-basis: 20%;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+.whyChoice-sub-item img {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+}
+.whyChoice-sub-item h3 {
+    text-align: center;
+    line-height: 5rem;
+    text-transform: uppercase;
+}
 
 /* TYPICAL PROJECTS */
 .typicalProjects {
@@ -324,11 +360,12 @@ img {
     flex-wrap: wrap;
 }
 .project-item {
-    width: 476px;
-    height: 357px;
+    flex-basis: 25%;
 }
 .project-item-img {
+    margin: 0;
     width: 100%;
+    height: 100%;
 }
 
 /* TEAM OF EXPERTS  */
