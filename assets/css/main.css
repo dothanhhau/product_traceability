@@ -367,7 +367,53 @@ img {
     width: 100%;
     height: 100%;
 }
-
+/* CUSTOMER THINK OF TWOGODFATHER */
+.customer {
+    background-color: #fff;
+    padding: 50px 0 60px 0;
+}
+.customer-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cusomer-item {
+    width: 330px;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.cusomer-item p {
+    opacity: .8;
+}
+.cusomer-item-head {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.cusomer-item-head img {
+    width: 60px;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cusomer-item-head h2 {
+    font-size: 1.8rem;
+}
+.cusomer-item-head p {
+    font-size: 1.4rem;
+}
+.cusomer-item-body {
+    padding: 30px;
+    background-color: #fff;
+    margin-top: -5px;
+    text-align: justify;
+    border-radius: 5px;
+}
 /* TEAM OF EXPERTS  */
 .teamOfExperts {
     height: 549px;
