@@ -26,3 +26,18 @@ html {
     user-select: none;
     -webkit-user-select: none;
 }
+.img-title {
+    display: block;
+    width: 170px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+.titles {
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    padding: 20px 0 60px 0;
+}
