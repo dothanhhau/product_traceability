@@ -1,0 +1,5 @@
+SELECT sanphampp.tensppp, nhasanxuat.tennsx, nhaphanphoi.tenpp, sanphamnsx.ngaysanxuat, sanphampp.ngaynhaphang FROM nhaphanphoi INNER JOIN sanphampp ON nhaphanphoi.mapp = sanphampp.mapp INNER JOIN nhasanxuat ON sanphampp.mansx = nhasanxuat.mansx INNER JOIN sanphamnsx ON sanphamnsx.mansx =nhasanxuat.mansx
+WHERE sanphampp.masppp = "A1"
+AND sanphampp.mansx = nhasanxuat.mansx
+AND sanphampp.mapp = nhaphanphoi.mapp
+AND sanphampp.masppp = sanphamnsx.maspnsx;
