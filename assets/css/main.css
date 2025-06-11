@@ -259,13 +259,35 @@
     border-radius: 40px;
     margin: auto 0 !important;
     border: none;
+    max-width: 190px;
+    width: 0;
     font-size: 1.6rem;
     outline: none;
     padding: 0;
-    padding-left: 10px;
-    width: 360px;
 }
 
+.header__nav--search i {
+    display: inline-block;
+    font-size: 22px;
+    padding: 18px;
+}
+
+.header__nav--search i:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.header__nav--search:hover #input-search,
+.header__nav--search:active #input-search {
+    display: inline-block;
+    padding-left: 10px;
+    height: 38px;
+    width: 190px;
+}
+
+.header__nav--search input:focus {
+    display: inline-block;
+}
 
 .header__nav--btn {
     position: absolute !important;
