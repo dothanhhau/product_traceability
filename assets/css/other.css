@@ -1,0 +1,117 @@
+.content {
+    height: 100vh;
+}
+.content-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0 95px 0;
+}
+.content-top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-top-text a {
+    font-size: 5rem;
+    line-height: 5rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.content-top-text p {
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+    margin-top: 16px;
+}
+.content-top-form {
+    width: 400px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+}
+.content-form {
+    padding: 18px;
+}
+.content-form > p {
+    color: red;
+    font-size: 1.4rem;
+    margin: 4px 0 12px 0;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 16px;
+    font-size: 1.6rem;
+    outline: none;
+    /* border: #dddfe2; */
+    border-radius: 8px;
+}
+.input {
+    border: solid 1px #ccc;
+    outline: #414cf0;
+}
+input[type="submit"] {
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: var(--secondary-color);
+    border: none;
+    color: #fff;
+}
+.back:hover,
+a.text-forgot-pass:hover,
+input[type="submit"]:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+.back,
+a.text-forgot-pass {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.text-forgot-pass {
+    font-size: 1.5rem;
+}
+.serparent {
+    width: 100%;
+    margin: 24px 0;
+    border: solid .5px #e4e4e4;
+}
+.back {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 16px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 8px;
+}
+.content-bottom {
+    color: #333;
+}
+.footer {
+    color: #333;
+    background-color: #fff;
+}
+.info-contact-title {
+    color: #333;
+    opacity: .8;
+}
+.info-contact-item,
+.info-contact-item a {
+    color: #333;
+    font-weight: 300;
+}
+.icon-submit i {
+    color: #fff;
+}
+.footer__info-item input {
+    border: solid 1px #333;
+}
+.footer__copy-right-container {
+    background-color: #fff;
+}
+.footer__copy-right-icon a i {
+    color: #333;
+}
